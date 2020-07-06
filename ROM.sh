@@ -68,7 +68,7 @@ read o
         1)  mkdir cm-14.1 && cd cm-14.1 && repo init -u git://github.com/LineageOS/android.git -b cm-14.1 && repo sync;;
         2)  git clone -b cm-14.1 https://github.com/PineDevelopment/device_sony_pine device/sony/pine;;
         3)  git clone -b 43.0.A.7.106-STOCK https://github.com/PineDevelopment/kernel_sony_pine kernel/sony/pine;;
-        4)  git clone -b lineage-14.1 https://github.com/PineDevelopment/vendor_sony_pine vendor/sony/pine;;
+        4)  git clone -b cm-14.1 https://github.com/PineDevelopment/vendor_sony_pine vendor/sony/pine;;
         5)  cd device/sony/pine && git am --3way --ignore-space-change --ignore-whitespace < ./1-patches/*.patch && cd ../../..;;
         6)  cd kernel/sony/pine && git am --3way --ignore-space-change --ignore-whitespace < ./1-patches/*.patch && cd ../../..;;
         7)  cd vendor/sony/pine && git am --3way --ignore-space-change --ignore-whitespace < ./1-patches/*.patch && cd ../../..;;
